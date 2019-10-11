@@ -1,0 +1,6 @@
+framework module Pods_BuildWithoutStoryboardTests {
+  umbrella header "Pods-BuildWithoutStoryboardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
