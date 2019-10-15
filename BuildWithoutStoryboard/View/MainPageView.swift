@@ -12,50 +12,38 @@ import SnapKit
 class MainPageView: UIView {
     
     var button1: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Scroll View", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     
     var button2: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Table View", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     
     var button3: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Collection View", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     
     var button4: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Map View", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     
     var button5: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Web View", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     
     var button6: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: UIButton.ButtonType.system)
         button.setTitle("Picker", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
-        button.setTitleColor(.systemTeal, for: .highlighted)
         return button
     }()
     

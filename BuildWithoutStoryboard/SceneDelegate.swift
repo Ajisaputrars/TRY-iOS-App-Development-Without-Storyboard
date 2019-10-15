@@ -20,7 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let navigationController = UINavigationController(rootViewController: MainPageController())
-//        let navigationController = UINavigationController(rootViewController: ScrollPageController())
 
         navigationController.navigationBar.isTranslucent = false
         navigationController.navigationBar.barTintColor = .darkGray

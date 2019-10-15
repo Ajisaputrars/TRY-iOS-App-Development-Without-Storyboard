@@ -10,6 +10,13 @@
 		04261F15B32A5216A0AF6A7F /* Pods_BuildWithoutStoryboard_BuildWithoutStoryboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC31E02003170E4AB04B980D /* Pods_BuildWithoutStoryboard_BuildWithoutStoryboardUITests.framework */; };
 		26227DB64EB4BCD803A914CE /* Pods_BuildWithoutStoryboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB24483419C042EA0B17C02 /* Pods_BuildWithoutStoryboardTests.framework */; };
 		7DEB81E959E51062E902A9BF /* Pods_BuildWithoutStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD9440140796A445E05E771 /* Pods_BuildWithoutStoryboard.framework */; };
+		D76C4CD123540F8E003CD608 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CD023540F8E003CD608 /* StudentCell.swift */; };
+		D76C4CD323541774003CD608 /* WebViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CD223541774003CD608 /* WebViewPageController.swift */; };
+		D76C4CD52354178B003CD608 /* WebViewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CD42354178B003CD608 /* WebViewPageView.swift */; };
+		D76C4CD7235431F0003CD608 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CD6235431F0003CD608 /* Student.swift */; };
+		D76C4CDA23543255003CD608 /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CD923543255003CD608 /* StudentData.swift */; };
+		D76C4CDC235447E3003CD608 /* AddPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CDB235447E3003CD608 /* AddPageController.swift */; };
+		D76C4CDE235449B7003CD608 /* AddPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C4CDD235449B7003CD608 /* AddPageView.swift */; };
 		D7B0FE982350D43400B97A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FE972350D43400B97A5B /* AppDelegate.swift */; };
 		D7B0FE9A2350D43400B97A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FE992350D43400B97A5B /* SceneDelegate.swift */; };
 		D7B0FE9C2350D43400B97A5B /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FE9B2350D43400B97A5B /* MainPageController.swift */; };
@@ -23,6 +30,7 @@
 		D7B0FED22351071700B97A5B /* ScrollPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FED12351071700B97A5B /* ScrollPageView.swift */; };
 		D7B0FED423512B5300B97A5B /* TableViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FED323512B5300B97A5B /* TableViewPageController.swift */; };
 		D7B0FED623512BE400B97A5B /* TableViewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B0FED523512BE400B97A5B /* TableViewPageView.swift */; };
+		D7E00F6F235564D500E8A6CE /* SaveStudentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E00F6E235564D500E8A6CE /* SaveStudentDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,13 @@
 		554569BBF23DF4820A833919 /* Pods-BuildWithoutStoryboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildWithoutStoryboardTests.release.xcconfig"; path = "Target Support Files/Pods-BuildWithoutStoryboardTests/Pods-BuildWithoutStoryboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		6EB24483419C042EA0B17C02 /* Pods_BuildWithoutStoryboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildWithoutStoryboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF44284FC059307BA12B3AD /* Pods-BuildWithoutStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildWithoutStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-BuildWithoutStoryboard/Pods-BuildWithoutStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		D76C4CD023540F8E003CD608 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		D76C4CD223541774003CD608 /* WebViewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPageController.swift; sourceTree = "<group>"; };
+		D76C4CD42354178B003CD608 /* WebViewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPageView.swift; sourceTree = "<group>"; };
+		D76C4CD6235431F0003CD608 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D76C4CD923543255003CD608 /* StudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
+		D76C4CDB235447E3003CD608 /* AddPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageController.swift; sourceTree = "<group>"; };
+		D76C4CDD235449B7003CD608 /* AddPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageView.swift; sourceTree = "<group>"; };
 		D7B0FE942350D43400B97A5B /* BuildWithoutStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildWithoutStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B0FE972350D43400B97A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7B0FE992350D43400B97A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +84,7 @@
 		D7B0FED12351071700B97A5B /* ScrollPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPageView.swift; sourceTree = "<group>"; };
 		D7B0FED323512B5300B97A5B /* TableViewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPageController.swift; sourceTree = "<group>"; };
 		D7B0FED523512BE400B97A5B /* TableViewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPageView.swift; sourceTree = "<group>"; };
+		D7E00F6E235564D500E8A6CE /* SaveStudentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStudentDelegate.swift; sourceTree = "<group>"; };
 		DBD9440140796A445E05E771 /* Pods_BuildWithoutStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildWithoutStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC31E02003170E4AB04B980D /* Pods_BuildWithoutStoryboard_BuildWithoutStoryboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildWithoutStoryboard_BuildWithoutStoryboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +140,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D76C4CCF23540F5C003CD608 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D76C4CD023540F8E003CD608 /* StudentCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D76C4CD8235431F3003CD608 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D76C4CD923543255003CD608 /* StudentData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		D7B0FE8B2350D43400B97A5B = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +181,10 @@
 		D7B0FE962350D43400B97A5B /* BuildWithoutStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				D7E00F6D2355649800E8A6CE /* Presenter */,
+				D7E00F6C2355649100E8A6CE /* Protocol */,
+				D76C4CD8235431F3003CD608 /* Data */,
+				D76C4CCF23540F5C003CD608 /* Cell */,
 				D7B0FECC2350DD2200B97A5B /* Model */,
 				D7B0FECB2350DD1E00B97A5B /* View */,
 				D7B0FECA2350DD1800B97A5B /* Controller */,
@@ -186,6 +222,8 @@
 				D7B0FE9B2350D43400B97A5B /* MainPageController.swift */,
 				D7B0FECF2351070100B97A5B /* ScrollPageController.swift */,
 				D7B0FED323512B5300B97A5B /* TableViewPageController.swift */,
+				D76C4CD223541774003CD608 /* WebViewPageController.swift */,
+				D76C4CDB235447E3003CD608 /* AddPageController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +234,8 @@
 				D7B0FECD2350DD3C00B97A5B /* MainPageView.swift */,
 				D7B0FED12351071700B97A5B /* ScrollPageView.swift */,
 				D7B0FED523512BE400B97A5B /* TableViewPageView.swift */,
+				D76C4CD42354178B003CD608 /* WebViewPageView.swift */,
+				D76C4CDD235449B7003CD608 /* AddPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,8 +243,24 @@
 		D7B0FECC2350DD2200B97A5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D76C4CD6235431F0003CD608 /* Student.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7E00F6C2355649100E8A6CE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D7E00F6E235564D500E8A6CE /* SaveStudentDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D7E00F6D2355649800E8A6CE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,13 +502,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B0FEA22350D43400B97A5B /* BuildWithoutStoryboard.xcdatamodeld in Sources */,
+				D76C4CD52354178B003CD608 /* WebViewPageView.swift in Sources */,
 				D7B0FED623512BE400B97A5B /* TableViewPageView.swift in Sources */,
 				D7B0FED22351071700B97A5B /* ScrollPageView.swift in Sources */,
+				D76C4CDC235447E3003CD608 /* AddPageController.swift in Sources */,
 				D7B0FE9C2350D43400B97A5B /* MainPageController.swift in Sources */,
 				D7B0FECE2350DD3C00B97A5B /* MainPageView.swift in Sources */,
+				D76C4CD123540F8E003CD608 /* StudentCell.swift in Sources */,
+				D76C4CD7235431F0003CD608 /* Student.swift in Sources */,
 				D7B0FED423512B5300B97A5B /* TableViewPageController.swift in Sources */,
+				D7E00F6F235564D500E8A6CE /* SaveStudentDelegate.swift in Sources */,
+				D76C4CDA23543255003CD608 /* StudentData.swift in Sources */,
 				D7B0FED02351070100B97A5B /* ScrollPageController.swift in Sources */,
 				D7B0FE982350D43400B97A5B /* AppDelegate.swift in Sources */,
+				D76C4CDE235449B7003CD608 /* AddPageView.swift in Sources */,
+				D76C4CD323541774003CD608 /* WebViewPageController.swift in Sources */,
 				D7B0FE9A2350D43400B97A5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
