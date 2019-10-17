@@ -69,7 +69,7 @@ class StudentCell: UITableViewCell {
             make.top.equalTo(self).offset(8)
             make.left.equalTo(cellImageView.snp.right).offset(8)
             make.right.equalTo(self).offset(-16)
-            make.bottom.equalTo(descriptionLabel.snp.top)
+            make.bottom.equalTo(descriptionLabel.snp.top).offset(-8)
         }
         
         descriptionLabel.snp.makeConstraints { (make) in
