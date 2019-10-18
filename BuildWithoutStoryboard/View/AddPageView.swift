@@ -14,6 +14,7 @@ class AddPageView: UIView {
         let textField = UITextField()
         textField.placeholder = "Enter the name"
         textField.borderStyle = .roundedRect
+        textField.translatesAutoresizingMaskIntoConstraints = false
         
         return textField
     }()
@@ -71,32 +72,38 @@ class AddPageView: UIView {
             make.top.equalTo(self.safeAreaLayoutGuide).offset(16)
             make.left.equalTo(self).offset(16)
             make.right.equalTo(self).offset(-16)
-            make.bottom.equalTo(descriptionTextField.snp.top).offset(-16)
+            make.bottom.equalTo(descriptionTextField.snp.top).offset(-64)
+            make.height.equalTo(35)
         }
 
         descriptionTextField.snp.makeConstraints { (make) in
-            make.top.equalTo(nameTextField.snp.bottom).offset(16)
+            make.top.equalTo(nameTextField.snp.bottom).offset(64)
             make.left.equalTo(self).offset(16)
             make.right.equalTo(self).offset(-16)
-            make.bottom.equalTo(infoTextField.snp.top).offset(-16)
+            make.bottom.equalTo(infoTextField.snp.top).offset(-64)
+            make.height.equalTo(35)
         }
 
         infoTextField.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(16)
             make.right.equalTo(self).offset(-16)
-            make.top.equalTo(descriptionTextField.snp.bottom).offset(16)
+            make.top.equalTo(descriptionTextField.snp.bottom).offset(64)
+            make.height.equalTo(35)
         }
-        
+
         saveButton.snp.makeConstraints { (make) in
             make.bottom.equalTo(self).offset(-16)
             make.left.equalTo(self).offset(16)
             make.right.equalTo(self).offset(-16)
+            make.top.equalTo(sampleTextField.snp.bottom).offset(8)
+            make.height.equalTo(20)
         }
         
         sampleTextField.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(16)
             make.right.equalTo(self).offset(-16)
             make.bottom.equalTo(saveButton.snp.top).offset(-8)
+            make.height.equalTo(35)
         }
     }
 }
