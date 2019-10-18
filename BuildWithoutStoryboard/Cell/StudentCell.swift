@@ -19,16 +19,18 @@ class StudentCell: UITableViewCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 1
-        label.font = label.font.withSize(12)
+        label.font = label.font.withSize(10)
         label.text = "Name Sample"
+        label.backgroundColor = .red
         return label
     }()
     
     let descriptionLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 3
-        label.font = label.font.withSize(11)
+        label.font = label.font.withSize(10)
         label.text = "Tulisan ini hanyalah sebuah deskripsi sample semata dan jangan pernah dianggap serius. Jadi ya santai saja ya, hehehehehee...."
+        label.backgroundColor = .green
         return label
     }()
 
@@ -70,6 +72,7 @@ class StudentCell: UITableViewCell {
             make.left.equalTo(cellImageView.snp.right).offset(8)
             make.right.equalTo(self).offset(-16)
             make.bottom.equalTo(descriptionLabel.snp.top).offset(-8)
+            make.height.equalTo(10)
         }
         
         descriptionLabel.snp.makeConstraints { (make) in
