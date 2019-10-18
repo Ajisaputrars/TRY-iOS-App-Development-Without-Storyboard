@@ -7,6 +7,7 @@ target 'BuildWithoutStoryboard' do
 
   # Pods for BuildWithoutStoryboard
   pod 'SnapKit'
+  pod 'Charts'
 
   target 'BuildWithoutStoryboardTests' do
     inherit! :search_paths
